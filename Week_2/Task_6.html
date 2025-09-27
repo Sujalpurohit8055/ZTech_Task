@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+        .heading{
+            text-align: center;
+        }
+
+        .Form{
+            text-align: center;
+        }
+
+
+        .outer_box {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer_box">
+        <div class="image">
+            <img src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png">
+        </div>
+        <div class="heading">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="Form">
+            <form>
+                <label for="userName or E-mail" style="position: relative;right: 63px;">Username or Email Address</label><br>
+                <input placeholder="Enter User Name or Email Address" type="text" style="width: 300px; height: 25px;"><br><br>
+                <label for="Password" style="position: relative;right: 120px;">Password</label><br>
+                <input type="password" style="width: 300px; height: 25px;" placeholder="Password">
+                <br><br>
+                <input type="submit" style="width: 304px; height: 25px;">
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
