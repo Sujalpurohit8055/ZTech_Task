@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 50px;
+            justify-content: space-between;
+            background-color: rgb(117, 181, 231);
+        }
+
+        .logo{
+            display: flex;
+            width: 20%;
+        }
+
+        img{
+            width: 100px;
+            height: 60px;
+        }
+
+        .navelement{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-top: 18px;
+        }
+
+        .navelement a {
+            text-decoration: none;
+            padding: 20px;
+            align-content: center;
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/743/570/non_2x/house-building-cleaning-service-business-logo-design-templates-vector.jpg">
+        </div>
+        <div class="navelement">
+            <div><a href="#" target="_self">HOME</a></div>
+            <div><a href="#" target="_self">ABOUT</a></div>
+            <div><a href="#" target="_self">SERVICE</a></div>
+            <div><a href="#" target="_self">CONTACT</a></div>
+        </div>
+    </header>
+</body>
+
+</html>
