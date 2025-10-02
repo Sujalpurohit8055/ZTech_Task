@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball</title>
+    <style>
+        .ball{
+            width: 100px;
+            height: 100px;
+            margin: 500px;
+            background-color: aqua;
+            border: solid 2px black;
+            border-radius: 50%;
+            animation-name: myBall;
+            animation-duration: 0.5s;
+            animation-play-state: Running;
+            animation-iteration-count: infinite;
+        }
+
+        .ball:hover{
+            background-color: yellow;
+            animation-play-state: paused;
+        }
+
+        @keyframes myBall{
+            0% {
+                transform : translateY(0px);
+            }
+
+            50%{
+                transform : translateY(-100px);
+            }
+
+            100%{
+                transform : translateY(0px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ball"></div>    
+</body>
+</html>
